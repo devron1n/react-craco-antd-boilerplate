@@ -1,0 +1,38 @@
+.logo {
+  width: 450px;
+  fill: #005da3;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.logo__text {
+  animation: text-anim 4s 2s infinite linear;
+}
+
+.emblem__blue {
+  fill: #005da3;
+}
+
+.emblem__grey {
+  fill: #99a4ab;
+}
+
+.emblem__red {
+  fill: #dd1e25;
+}
+
+@keyframes text-anim {
+  0% {
+    fill: #005da3;
+  }
+  50% {
+    fill: #99a4ab;
+  }
+  100% {
+    fill: #005da3;
+  }
+}

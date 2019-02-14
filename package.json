@@ -1,0 +1,39 @@
+{
+  "name": "checklists",
+  "version": "1.0.0",
+  "description": "A Checklists Frontend",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -w craco.config.js -w ./antd.customize.less --exec craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.severstal.severstalgroup.com/rnd/frontend/checklists.git"
+  },
+  "author": "Ruslan Ten <ra.ten@severstal.com>",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie < 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@craco/craco": "^3.4.1",
+    "antd": "^3.13.2",
+    "craco-antd": "^1.10.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "webpack-bundle-analyzer": "^3.0.4",
+    "webpackbar": "^3.1.5"
+  }
+}
